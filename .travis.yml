@@ -1,0 +1,11 @@
+sudo: false
+addons:
+  apt:
+    packages:
+    - git
+language: java
+jdk: openjdk11
+dist: bionic
+branches:
+  only:
+    - master
